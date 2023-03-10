@@ -1,0 +1,91 @@
+/*Background*/
+
+#contact {
+	background: url(../../assets/img/contact-background.jpg) no-repeat center center;
+	background-size: cover;
+	padding-top: 77px;
+	min-height: 815px;
+	display: block;
+	width: 100%;
+}
+
+#contact h2 {
+    font-family: 'Segoe UI Light';
+	font-size: 30px;
+	font-weight: 300;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+
+
+/*Form*/
+
+.form-and-details{
+	padding-top: 20px;
+}
+
+.form {
+	width: 50%;
+	float: left;
+}
+
+.form > form > label {
+    color: #fff;
+	font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    display: inline-block;
+
+}
+
+.form > form input, .form > form textarea{
+    width: 470px;
+    height: 60px;
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-bottom: 30px;
+    padding-left: 10px;
+	background: none;
+    display: block;
+    outline: 0;
+    margin-top: 5px;
+}
+
+.form > form textarea {
+    width: 1170px;
+    height: 220px;
+}
+
+.form > form textarea::placeholder {
+    color: #fff;
+}
+
+
+/*Form Send Button*/
+
+.form > form a {
+    background: #4bcaff;
+    color: #fff;
+	width: 370px;
+    height: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 18px;
+    text-align: center;
+}
+
+
+
+
+/*Form Details*/
+
+.details p {
+	color: #fff;
+    padding-bottom: 30px;
+    font-weight: 600;
+    font-size: 14px;
+}

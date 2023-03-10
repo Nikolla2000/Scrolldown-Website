@@ -1,0 +1,52 @@
+/*Background*/
+
+#default-section {
+	background-color: #515f67;
+	padding: 77px 0;
+}
+
+
+
+
+/*Description - Heading and Paragraphs*/
+
+#default-section h2 {
+	font-family: 'Segoe UI Light';
+	font-size: 30px;
+	font-weight: 300;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+#default-section h2:after{  /* The white line below the heading */
+	width: 10% !important;
+}
+
+#default-section p {
+	font-family: 'Segoe UI Regular';
+	color: #fff;
+	padding: 30px 60px 0 0;
+}
+
+#default-section a{
+	display: inline-block;
+	border: 2px solid #353f46;
+	color: #353f46;
+	font-weight: 700;
+	padding: 10px 35px;
+	margin-top: 30px;
+}
+
+#default-section a:hover {
+	color: #4bcaff;
+	border-color: #4bcaff;
+	transition: 0.3s;
+}
+
+
+/*Video Section*/
+.video > iframe {
+	width: 560px;
+	height: 416px;
+}

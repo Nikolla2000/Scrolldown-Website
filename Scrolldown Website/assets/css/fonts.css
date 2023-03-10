@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'fredoka_oneregular';
+    src: url('../assets/fonts/Fredoka One/fredokaone-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/Fredoka One/fredokaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* latin */
+/*
+FONT:  Fredoka One
+font-family: 'Comfortaa', cursive;
+*/
+/*@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');*/
+@font-face {
+    font-family: 'Comfortaa Test';
+    font-style: normal;
+    font-weight: 400;
+    src:  url('../fonts/comfortaa/comfortaa_regular.woff2') format('woff2');
+}
+
+/*FONT:  Fredoka One*/
+@font-face {
+    font-family: 'Fredoka One';
+/*  font-style: normal;
+    font-weight: 400;
+    font-display: swap;*/
+    src: url('../fonts/fredokaone/fredokaone_regular.woff2') format('woff2');
+    /*unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;*/
+}
+
+
+
+
+/* Segoe UI Font*/
+
+    @font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('../fonts/Segoe UI/Segoe UI.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Italic'), url('../fonts/Segoe UI/Segoe UI Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url('../fonts/Segoe UI/Segoe UI Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold Italic'), url('../fonts/Segoe UI/Segoe UI Bold Italic.woff') format('woff');
+    }
+
+    @font-face {
+    font-family: 'Segoe UI Light';
+    src: url('../fonts.Segoe UI/SegoeUI-Light.woff2') format('woff2'),
+        url('../fonts/Segoe UI/SegoeUI-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+/*DejaVu Sans Font*/
+
+@font-face {
+    font-family: 'DejaVu Sans Condensed';
+    src: url('../fonts/DejaVu_Sans/DejaVuSansCondensed.woff2') format('woff2'),
+        url('../fonts/DejaVu_Sans/DejaVuSansCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url('../fonts/DejaVu_Sans/DejaVuSans-Bold.woff2') format('woff2'),
+        url('../fonts/DejaVu_Sans/DejaVuSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url('../fonts/DejaVu_Sans/DejaVuSans.woff2') format('woff2'),
+        url('../fonts/DejaVu_Sans/DejaVuSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+/*Trebuchet Font*/
+
+
+    @font-face {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Trebuchet MS'), url('../fonts/Trebuchet/trebuc.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Trebuchet MS Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Trebuchet MS Italic'), url('../fonts/Trebuchet/Trebuchet-MS-Italic.woff') format('woff');
+    }

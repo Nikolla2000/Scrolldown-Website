@@ -1,0 +1,146 @@
+
+/*A little animation for showing the images 
+when the filters are clicked*/
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+
+
+div.portfolio-nav-wrapper{
+  padding:77px 0 93px 0;
+}
+
+.port-heading {
+  width: 30%;
+  float: left;
+}
+
+#portfolio .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px
+}
+
+.port-heading > h2 {
+  font-family: 'Segoe UI Light';
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 300;
+  color: #000;
+}
+
+#portfolio h2:after{
+	background-color: #515f67 !important;
+	content: '';
+	height: 2px;
+  width: 15%  !important;
+  display: block;
+  position: relative;
+  top:10px;
+}
+
+
+
+
+
+/*Portfolio Naviagion*/
+
+.port-nav {
+  width: 70%;
+  float: left;
+  text-align: right;
+}
+
+.port-nav > ul > li {
+	display: inline-block;
+	color: #515f67;
+	font-weight: 300;
+}
+
+.port-nav > ul > li span {
+  font-size: 14px;
+	display: block;
+  padding: 3px 25px;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.port-nav > ul > li span:hover {
+  color: #4bcaff;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+/*Portfolio Gallery*/
+
+div.portfolio-list {
+  padding-bottom: 80px;
+}
+
+div.img-wrapper {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  width: 270px;
+  height: 270px;
+  padding: 15px;
+}
+
+.portfolio-list > .row {
+  padding-bottom: 15px;
+}
+
+.img-wrapper > img{
+  width: 100%;
+  position: relative;
+
+}
+
+
+.img-wrapper i {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 28px;
+  color: #fff;
+  font-weight: 300;
+  transform: translate(-50%, -50%);
+}
+
+.img-wrapper > img:hover {
+  filter: brightness(50%);
+  transition: 0.5s;
+
+}
+
+.img-wrapper:hover i {
+  display: block;
+  z-index: 2;
+}
+
+/*Hiding and showing the images when clicking on the filters*/
+.img-wrapper.hide{  
+  display: none;
+}
+
+.img-wrapper.show{
+  animation: fadeIn 0.5s ease;
+}
+

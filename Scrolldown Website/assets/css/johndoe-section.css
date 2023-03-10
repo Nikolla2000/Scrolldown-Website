@@ -1,0 +1,67 @@
+/*Background Image*/
+
+#john-doe {
+	background: url(../../assets/img/johndoe-background.jpg) no-repeat center center;
+	background-size: cover;
+	padding-top: 95px;
+	width: 100%;
+	min-height: 500px;
+}
+
+
+
+
+/*John Doe Content*/
+
+#john-doe h2 {
+	font-family: 'Segoe UI Light';
+	font-size: 30px;
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+	height: 100%;
+	width: 100%;
+}
+
+#john-doe h2:after {
+	width: 6% !important;
+	/*display: none !important;*/
+}
+
+#john-doe p {
+	padding-top: 30px;
+	color: #fff;
+	font-size: 14px;
+}
+
+
+
+
+/*Social Media Icons*/
+
+div.social-medias {
+	display: inline;
+	padding-top: 35px;
+}
+
+.social-medias a {
+	padding: 0 10px;
+}
+
+.social-medias i {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 300;
+	border: 2px solid #fff;
+	padding: 14px 15px;
+}
+
+.social-medias i:hover {
+	color: #4bcaff;
+	border-color: #4bcaff;
+	transition: 0.3s;
+}
+
+.social-medias > a:nth-of-type(2) i{
+	padding: 14px 10px;
+}

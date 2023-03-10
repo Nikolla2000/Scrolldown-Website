@@ -1,0 +1,24 @@
+body {
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Segoe, "Segoe UI Regular", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+.container {
+    margin-left: auto;
+	margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row {
+	margin-left: -15px;
+    margin-right: -15px;
+}
+
+p {
+	color: #515f67;
+}
+

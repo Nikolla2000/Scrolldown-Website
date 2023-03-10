@@ -1,0 +1,32 @@
+/*Background*/
+
+footer {
+	background-color: #353f47;
+	padding: 77px 0;
+}
+
+
+
+
+/*Footer Navigaion*/
+
+footer ul {
+	display: flex;
+	list-style-type: none;
+}
+
+footer ul > li a{
+    font-size: 12px;
+	color: #515f67;
+    padding: 0 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+footer ul > li:not(:last-child){
+	border-right: 2px solid #515f67;
+}
+
+footer p {
+	text-align: right;
+}

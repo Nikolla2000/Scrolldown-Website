@@ -1,0 +1,36 @@
+/*Background*/
+
+#testimonials {
+	padding: 80px 0;
+}
+
+
+
+
+/*Content*/
+
+#testimonials h2 {
+	font-family: 'Segoe UI Light';
+	color: #515f67;
+}
+
+#testimonials h2:after{
+	background-color: #515f67;
+	width: 4%;
+}
+
+#testimonials a > i {
+	color: #515f67;
+}
+
+#testimonials p {
+	color: #333;
+	padding-top: 10px;
+}
+
+#testimonials span {
+    color: #4bcaff;
+    display: block;
+	font-weight: 600;
+    padding-top: 20px;
+}
